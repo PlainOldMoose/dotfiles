@@ -1,6 +1,5 @@
 [user]
 	name = PlainOldMoose
-	nam = PlainOldMoose
 	email = luque@vandermerwe.uk
 [credential "https://github.com"]
 	helper = 
