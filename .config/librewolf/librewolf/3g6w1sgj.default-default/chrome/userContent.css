@@ -1,0 +1,11 @@
+/* Black + red new tab page */
+@-moz-document url("about:newtab"), url("about:home"), url("about:privatebrowsing") {
+  :root, body {
+    --newtab-background-color: #000000 !important;
+    --newtab-background-color-secondary: #141414 !important;
+    --newtab-text-primary-color: #dcdcdc !important;
+    --newtab-primary-action-background: #e11d2a !important;
+    --color-accent-primary: #e11d2a !important;
+    background-color: #000000 !important;
+  }
+}

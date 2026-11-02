@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Swap tray + dock icons between red and white: icons-swap red|white
+set -e
+case "$1" in
+  red)   theme=BeautyLine-Red ;;
+  white) theme=BeautyLine-White ;;
+  *) echo "usage: icons-swap red|white" >&2; exit 1 ;;
+esac
+/usr/lib/plasma-changeicons "$theme"
+# Discord tray is a pixmap, not a theme icon: copy PNGs into every installed version
+for d in ~/.config/discord/app-*/modules/discord_desktop_core-*/discord_desktop_core/app/images/systemtray/linux; do
+  cp ~/.local/share/icons/discord-tray/"$1"/*.png "$d"/
+done
+rm -f ~/.cache/icon-cache.kcache
+kquitapp6 plasmashell >/dev/null 2>&1 || true
+setsid kstart plasmashell >/dev/null 2>&1 &
+if pgrep -x Discord >/dev/null; then
+  pkill -x Discord; sleep 2; setsid discord >/dev/null 2>&1 &
+fi
+echo "icons: $1"

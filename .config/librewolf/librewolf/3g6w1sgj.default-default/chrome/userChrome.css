@@ -1,0 +1,36 @@
+/* Black + red browser UI. Needs toolkit.legacyUserProfileCustomizations.stylesheets (see user.js). */
+:root {
+  --lwt-accent-color: #000000 !important;
+  --lwt-accent-color-inactive: #000000 !important;
+  --lwt-text-color: #dcdcdc !important;
+  --toolbar-bgcolor: #0a0a0a !important;
+  --toolbar-color: #dcdcdc !important;
+  --tab-selected-bgcolor: #1c1c1c !important;
+  --tab-selected-textcolor: #ffffff !important;
+  --tab-hover-background-color: #141414 !important;
+  --toolbar-field-background-color: #141414 !important;
+  --toolbar-field-color: #dcdcdc !important;
+  --toolbar-field-focus-background-color: #1c1c1c !important;
+  --toolbar-field-focus-color: #ffffff !important;
+  --toolbar-field-focus-border-color: #e11d2a !important;
+  --focus-outline-color: #e11d2a !important;
+  --color-accent-primary: #e11d2a !important;
+  --color-accent-primary-hover: #f8505a !important;
+  --color-accent-primary-active: #b91c1c !important;
+  --button-primary-bgcolor: #e11d2a !important;
+  --button-primary-hover-bgcolor: #f8505a !important;
+  --button-primary-active-bgcolor: #b91c1c !important;
+  --button-primary-color: #ffffff !important;
+  --arrowpanel-background: #141414 !important;
+  --arrowpanel-color: #dcdcdc !important;
+  --arrowpanel-border-color: #2a2a2a !important;
+  --urlbarView-highlight-background: #6b0f15 !important;
+  --urlbarView-highlight-color: #ffffff !important;
+  --sidebar-background-color: #0a0a0a !important;
+  --sidebar-text-color: #dcdcdc !important;
+  --toolbarbutton-icon-fill-attention: #e11d2a !important;
+}
+#navigator-toolbox, #TabsToolbar, #titlebar { background-color: #000000 !important; }
+/* thin red line on the active tab */
+.tab-background[selected] { box-shadow: inset 0 2px 0 #e11d2a !important; }
+::selection { background-color: #6b0f15 !important; color: #ffffff !important; }

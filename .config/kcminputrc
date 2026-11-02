@@ -1,0 +1,13 @@
+[Libinput][1133][16553][Logitech PRO X 2]
+PointerAcceleration=0.000
+PointerAccelerationProfile=1
+
+[Libinput][1133][49307][Logitech PRO X 2]
+PointerAccelerationProfile=1
+
+[Libinput][2821][6837][ASUSTeK ROG STRIX SCOPE II RX Mouse]
+PointerAccelerationProfile=1
+
+[Mouse]
+cursorSize=24
+cursorTheme=Bibata-Modern-Red

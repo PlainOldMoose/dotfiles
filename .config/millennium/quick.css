@@ -1,0 +1,39 @@
+/* Quick CSS file created by Millennium */
+/* Black + red: Material generates pastel reds from the accent, pin the real ones */
+:root {
+  --md-sys-color-primary: #e11d2a !important;
+  --md-sys-color-on-primary: #ffffff !important;
+  --md-sys-color-primary-container: #6b0f15 !important;
+  --md-sys-color-on-primary-container: #ffdada !important;
+  --md-sys-color-primary-fixed-dim: #e11d2a !important;
+  --md-sys-color-inverse-primary: #b91c1c !important;
+  --md-sys-color-surface-tint: #e11d2a !important;
+  --md-sys-color-secondary: #f8505a !important;
+  --md-sys-color-secondary-container: #4a0a0f !important;
+  --md-sys-color-on-surface: #dcdcdc !important;
+  --md-sys-color-on-surface-variant: #a0a0a0 !important;
+  --md-sys-color-outline: #555555 !important;
+  --md-sys-color-outline-variant: #2a2a2a !important;
+  /* surfaces: Material tints these from the accent (brown/salmon panels) */
+  --md-sys-color-background: #000000 !important;
+  --md-sys-color-on-background: #dcdcdc !important;
+  --md-sys-color-surface: #000000 !important;
+  --md-sys-color-surface-dim: #000000 !important;
+  --md-sys-color-surface-bright: #2a2a2a !important;
+  --md-sys-color-surface-container-lowest: #000000 !important;
+  --md-sys-color-surface-container-low: #0a0a0a !important;
+  --md-sys-color-surface-container: #141414 !important;
+  --md-sys-color-surface-container-high: #1c1c1c !important;
+  --md-sys-color-surface-container-highest: #242424 !important;
+  --md-sys-color-surface-variant: #1c1c1c !important;
+  --md-sys-color-inverse-surface: #dcdcdc !important;
+  --md-sys-color-inverse-on-surface: #141414 !important;
+  --md-sys-color-on-secondary-container: #ffdada !important;
+  --md-sys-color-tertiary: #b3134f !important;
+  --md-sys-color-on-tertiary: #ffffff !important;
+  --md-sys-color-tertiary-container: #3a0a1a !important;
+  --md-sys-color-on-tertiary-container: #ffd9e3 !important;
+  --md-sys-color-on-secondary: #ffffff !important;
+  --md-sys-color-primary-fixed: #e11d2a !important;
+  --md-sys-color-on-primary-fixed: #ffffff !important;
+}

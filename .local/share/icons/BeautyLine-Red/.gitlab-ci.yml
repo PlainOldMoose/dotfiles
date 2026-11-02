@@ -1,0 +1,4 @@
+stages: [test, release]
+include:
+  - 'https://gitlab.com/garuda-linux/tools/gitlab-ci-commons/-/raw/main/templates/commitizen.gitlab-ci.yml'
+  - 'https://gitlab.com/garuda-linux/tools/gitlab-ci-commons/-/raw/main/templates/tag-to-release.gitlab-ci.yml'

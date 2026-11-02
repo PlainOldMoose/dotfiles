@@ -1,0 +1,37 @@
+# Black + red minimal
+add_newline = true
+format = "$directory$git_branch$git_status$python$nodejs$rust$cmd_duration$line_break$character"
+
+[directory]
+style = "bold #e11d2a"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[git_branch]
+symbol = " "
+style = "#b3134f"
+format = "[$symbol$branch]($style) "
+
+[git_status]
+style = "#f7768e"
+
+[python]
+style = "#e0af68"
+format = "[$symbol$version]($style) "
+
+[nodejs]
+style = "#9ece6a"
+format = "[$symbol$version]($style) "
+
+[rust]
+style = "#f7768e"
+format = "[$symbol$version]($style) "
+
+[cmd_duration]
+min_time = 2000
+style = "#565f89"
+format = "[ $duration]($style) "
+
+[character]
+success_symbol = "[❯](bold #e11d2a)"
+error_symbol = "[❯](bold #e0af68)"
